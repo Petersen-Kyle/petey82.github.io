@@ -41,6 +41,7 @@ main img {
     width: 200px;
     height: auto;
     float: right;
+    padding-top: .25rem;
 
 }
 
@@ -49,7 +50,7 @@ footer {
 }
 
 main {
-	height: 350px;
+	height: 315px;
 }
 
 
