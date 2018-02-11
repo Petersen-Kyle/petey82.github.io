@@ -14,7 +14,7 @@ header, nav, main, footer { /* the comma means apply the following CSS declarati
 }
 
 header {
-  
+  height:auto;
   display: inline;
   padding: 20px 20px 20px 20px;
 
