@@ -10,6 +10,7 @@ body {
 header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
   padding-left: 14px;
+  padding-right: 14px;
 }
 
 header {
