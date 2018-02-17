@@ -1,0 +1,37 @@
+@media only screen and (min-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+  
+  nav{
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c478c+0,2989d8+81,4b91ed+100 */
+  background: #2c478c; /* Old browsers */
+  background: -moz-linear-gradient(left, #2c478c 0%, #2989d8 81%, #4b91ed 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #2c478c 0%,#2989d8 81%,#4b91ed 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #2c478c 0%,#2989d8 81%,#4b91ed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c478c', endColorstr='#4b91ed',GradientType=1 ); /* IE6-9 */
+  }
+
+  nav button { display:none; 
+
+  }  /* hamburger button does not need to be shown */
+
+  nav ul.hide {
+    display: block;
+  }
+
+  nav ul li{
+  	float: left;
+  }
+
+nav ul li a {
+	border-right:1px solid #FFFFFF;
+	padding: .8rem 1rem;
+}
+
+
+  
+  section.forecast { display: block ; }  /* show the 10-day forecast with the medium view and up */
+/*
+  article p.town-article img { width: 62.666%; float:left; }  /* responsive images */
+
+}
