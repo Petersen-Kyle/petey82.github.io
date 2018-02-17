@@ -34,6 +34,7 @@ header .subheading {
 
 nav {
     background-color: #2c478c;
+   
         
 }
 
@@ -116,9 +117,18 @@ article p.town-article img {  /* This structure refers to img elements that are 
   margin: ???;
 }
 
-footer {}
+footer {
+
+}
 footer aside {}
-footer>p {} /* This structure refers to p elements that are direct children of the footer element */
+footer>p {
+  padding:0;
+  margin: 0;
+  background-color: #2c478c;
+  color: white;
+  
+
+  } /* This structure refers to p elements that are direct children of the footer element */
 
 /* Other Class Selectors */
 
