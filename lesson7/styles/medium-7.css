@@ -1,0 +1,92 @@
+@media only screen and (min-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+  
+  nav{
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c478c+0,2989d8+81,4b91ed+100 */
+
+  }
+
+    nav button { 
+    display:none; 
+
+  }  /* hamburger button does not need to be shown */
+
+  
+  nav ul.hide{
+    display: flex;
+  }
+
+nav ul li {
+  text-align: center;
+  flex:1 0 auto;
+}
+
+nav ul li.active a {
+  padding: .5em .9em;
+  background-color: rgba(0,0,0,0.5);
+}
+nav ul li a:hover {
+  background-color:#89C8CB;
+  padding: .5em .9em;
+}
+
+
+
+td {
+  border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2c478c;
+    color: white;
+}
+  
+
+/*section.forecast { 
+  display: flex;
+  flex-direction: column; 
+} */
+
+section.forecast{
+  display: flex;
+  flex-direction: column;
+
+}
+
+div.forecast-grid{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  flex: 1 0 100px;
+  
+  
+
+  
+}
+
+div.forecast-day{
+  font-weight: bold;
+
+
+}
+
+
+
+  article p.town-article img { width: 62.666%; float:left; }  /* responsive images */
+
+footer>p {
+  background: #2c478c; /* Old browsers */
+  background: -moz-linear-gradient(left, #2c478c 0%, #2989d8 81%, #4b91ed 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #2c478c 0%,#2989d8 81%,#4b91ed 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #2c478c 0%,#2989d8 81%,#4b91ed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c478c', endColorstr='#4b91ed',GradientType=1 ); /* IE6-9 */
+  color: white;
+
+
+
+}

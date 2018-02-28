@@ -1,0 +1,103 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  font-family: 'Muli', sans-serif;/* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { 
+
+}
+
+header {
+	display: flex;
+	flex-direction: row
+	flex-wrap: nowrap;
+
+}
+header.main-header {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+header h1 {
+	font-family: 'Bitter', serif;
+	
+}	
+
+header img {
+		
+}
+header .subheading {}
+
+nav {
+	/*padding-bottom: 2em;
+	margin-bottom: 2em;*/
+	background-color: #2c478c;
+}
+nav button {
+  	display:flex;
+  	justify-content: center;
+  	background-color: transparent;
+  	border: none;
+  	font-size: 1.6rem;
+  	color: white;
+  	text-align: center;
+  
+ }
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: #2c478c;
+}
+nav ul li {
+	
+	padding: .6em 1em;
+	text-align: left;
+}
+
+nav ul li a {	
+	text-decoration: none;
+	color: white;
+	padding: .6em 1em;
+}
+nav ul li.active a {
+	padding: .5em .9em;
+	background-color: rgba(0,0,0,0.5);
+}
+nav ul li a:hover {
+	background-color:#89C8CB;
+	padding: .5em .9em;
+}
+
+nav ul.hide{
+  display: none;
+
+}
+
+main {}
+main h2 {}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img { width: 100%; }
+
+  section.forecast {
+    display:none;
+ }	
+
+article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+  width: ???; /* fill the page in the small/phone view */
+  margin: ???;
+}
+
+footer {}
+footer aside {}
+footer>p {} /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */

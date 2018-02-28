@@ -50,7 +50,7 @@ footer {
 }
 
 main {
-	height: 315px;
+	overflow: auto;
 }
 
 
