@@ -5,6 +5,7 @@
 body {
   font-size: 16px;
   font-family: 'Muli', sans-serif;/* Declare the base font-family - from google font api or other */
+  margin:1em;
 }
 
 header, nav, main, footer { 
@@ -13,7 +14,7 @@ header, nav, main, footer {
 
 header {
 	display: flex;
-	flex-direction: row
+	flex-direction: row;
 	flex-wrap: nowrap;
 
 }
@@ -39,7 +40,7 @@ nav {
 	background-color: #2c478c;
 }
 nav button {
-  	display:flex;
+  	display: flex;
   	justify-content: center;
   	background-color: transparent;
   	border: none;
@@ -87,8 +88,18 @@ main h2 {}
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure img { width: 100%; }
 
-  section.forecast {
+  	section.forecast {
     display:none;
+ 	
+ 	}
+
+ .grid{
+ 	display: block;
+
+ }
+
+ .grid img{
+ 	max-width: 100%;
  }	
 
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
