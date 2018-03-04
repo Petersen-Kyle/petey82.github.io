@@ -1,0 +1,89 @@
+
+<!doctype html>
+<html lang="en-us">
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery - Crystal Ball Weather</title>
+  <meta name="author" content="Kyle Petersen">
+  <meta name="description" content="Weather site for the Franklin area">
+  <!-- style references in the proper cascading order -->    
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Muli" rel="stylesheet">    <!-- Google API font reference -->
+   <link href="../lesson7/styles/normalize.css" rel="stylesheet"> <!--normalize useragent/browser defaults -->
+  <link href="../lesson7/styles/main-7.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+  <link href="../lesson7/styles/medium-7.css" rel="stylesheet"> <!--medium/tablet views -->
+  <link href="../lesson7/styles/large-7.css" rel="stylesheet">   <!--large/wide/desktop views-->
+</head>
+
+<body>
+  
+  <header>
+        <img src="../lesson7/images/main_logo.jpeg" alt="The site logo">
+        <div class="main-header">
+        <h1>Crystal Ball Weather</h1>
+        <div class="subheading">We’re not gypsies just meteorologist with awesome radars!</div>
+        </div>
+  </header>
+
+  <!— site navigation use placeholder references —>
+  <nav>
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+    	<li><a href="#">Home</a></li>
+    	<li><a href="../lesson7/franklin-7.html">Franklin</a></li>
+    	<li><a href="#">Greenville</a></li>
+    	<li><a href="#">Springfield</a></li>
+    	<li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+    	<li><a href="../lesson7/Galler-7.html">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+  <main class="clearfix">
+  <div class="thanks">
+    <p>Thank you for your submission. It will be posted after clearing our content review process.
+      <br>
+      Redirecting to Franklin page after <span id="countdown">10</span> seconds</p>
+  </div>
+
+   
+
+<!-- JavaScript part -->
+<script type="text/javascript">
+    
+    // Total seconds to wait
+    var seconds = 10;
+    
+    function countdown() {
+        seconds = seconds - 1;
+        if (seconds < 0) {
+            // Chnage your redirection link here
+            window.location = "../lesson7/franklin-7.html";
+        } else {
+            // Update remaining seconds
+            document.getElementById("countdown").innerHTML = seconds;
+            // Count down using javascript
+            window.setTimeout("countdown()", 1000);
+        }
+    }
+    
+    // Run countdown function
+    countdown();
+    
+</script>
+  
+  </main>
+    
+  <footer>
+    <aside>
+      Contact information placeholder
+    </aside>
+    <p class="footer-bar">&copy;2017 All Rights Reserved | Site Title | <span id="currentdate"></span></p>
+  </footer>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  
+
+</body>
+</html>
