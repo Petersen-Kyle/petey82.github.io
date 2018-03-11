@@ -31,6 +31,15 @@ nav ul li a:hover {
   padding: .5em .9em;
 }
 
+main figure img { 
+  float:left;
+  width: 25%; 
+  float: left;
+  padding-right: 1em;
+
+}
+
+
 
 
 

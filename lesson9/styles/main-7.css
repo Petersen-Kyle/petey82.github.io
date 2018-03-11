@@ -105,7 +105,7 @@ main figure {
 
 main figure img { 
   float:left;
-  width: 25%; 
+  width: 100px; 
   float: left;
   padding-right: 1em;
 
@@ -196,7 +196,7 @@ article p.town-article img {  /* This structure refers to img elements that are 
 #statcontainer{
     display: flex;
     align-content: center;
-    flex-wrap:;
+    flex-wrap:wrap;
        
 
 }
