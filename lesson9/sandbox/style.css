@@ -1,0 +1,11 @@
+.container{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.child{
+	width: 32%;
+	padding: 10%;
+
+}

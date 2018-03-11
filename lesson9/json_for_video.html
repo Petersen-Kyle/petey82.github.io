@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Javascript Object:</p>
+
+<p id="jsonsample"></p>
+
+<script>
+
+var jObject;
+var sName;
+var cName;
+var gradStatus;
+var gradStatusNew;
+
+jObject = {"name" : "Kyle", "classname" : "CIT230", "graduated" : true};
+
+sName = jObject.name;
+cName = jObject.classname;
+gradStatus = jObject.graduated;
+
+document.getElementById("jsonsample").innerHTML = sName + " is taking " + cName + ". Graduation status= " + gradStatus + ".";
+</script>
+
+</body>
+</html>
