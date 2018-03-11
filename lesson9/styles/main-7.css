@@ -124,7 +124,7 @@ article p.town-article img {  /* This structure refers to img elements that are 
   }
 
   #weather_summary{
-    display:flex;
+    display:block;
     padding: 2em;
     justify-content: space-around;
   }

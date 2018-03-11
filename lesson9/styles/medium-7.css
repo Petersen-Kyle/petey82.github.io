@@ -46,6 +46,12 @@ div #statcontainer{
     flex-direction: row;
 }
 
+ #weather_summary{
+    display:flex;
+    padding: 2em;
+    justify-content: space-around;
+  }
+
 
 
 
