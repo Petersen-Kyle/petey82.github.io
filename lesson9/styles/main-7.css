@@ -194,10 +194,7 @@ article p.town-article img {  /* This structure refers to img elements that are 
   }
 
 #statcontainer{
-    display: flex;
-    align-content: center;
-    flex-wrap:wrap;
-    flex-direction: column;   
+    display: none;  
 
 }
 
