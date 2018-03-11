@@ -38,6 +38,26 @@ main figure img {
   padding-right: 1em;
 
 }
+#statcontainer{
+    display: flex;
+    align-content: center;
+    flex-wrap:wrap;
+    flex-direction: row;
+       
+
+}
+
+.weatherstat{
+
+    border: 1px solid;
+    flex: 1 0 auto;
+    margin:.5em;
+    box-shadow: 0 1px 8px black;
+    padding: 1em;
+    text-align: center;
+
+  
+}
 
 
 

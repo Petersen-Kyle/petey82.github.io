@@ -197,7 +197,7 @@ article p.town-article img {  /* This structure refers to img elements that are 
     display: flex;
     align-content: center;
     flex-wrap:wrap;
-       
+    flex-direction: column;   
 
 }
 
