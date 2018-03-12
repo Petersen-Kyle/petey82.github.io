@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"space",
+				"space-around"
+			],
+			[
+				"sp",
+				"space-between"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"weateh",
+				"weatherTowns"
+			],
+			[
+				"align",
+				"align-content"
+			],
+			[
+				"spce",
+				"space-between"
+			],
+			[
+				"flex-",
+				"flex-flow"
+			],
+			[
+				"fle",
+				"flex-start"
+			],
+			[
+				"flex",
+				"flex-end"
+			],
+			[
+				"inli",
+				"inline-flex"
+			],
+			[
+				"padi",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
 				"fl",
 				"flex-start"
 			],
@@ -144,28 +192,8 @@
 				"scripts"
 			],
 			[
-				"sp",
-				"space-between"
-			],
-			[
-				"margin",
-				"margin-left"
-			],
-			[
 				"over",
 				"overflow"
-			],
-			[
-				"flex",
-				"flex-direction"
-			],
-			[
-				"fle",
-				"flex-wrap"
-			],
-			[
-				"space",
-				"space-around"
 			],
 			[
 				"tra",
@@ -178,10 +206,6 @@
 			[
 				"dis",
 				"text-decoration-style"
-			],
-			[
-				"align",
-				"text-align"
 			],
 			[
 				"st",
@@ -224,23 +248,31 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/index.html",
+			"file": "/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/franklin.html",
 			"settings":
 			{
-				"buffer_size": 4361,
+				"buffer_size": 6545,
 				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "<!DOCTYPE HTML>"
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "/* This main css file contains the default rules and is geared toward the small/phone view */\n\n* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */\n\nbody {\n  font-size: 16px;\n  font-family: 'Muli', sans-serif;/* Declare the base font-family - from google font api or other */\n  \n}\n\nheader, nav, main, footer { \n\n}\n\nheader {\n  max-width: 75%;\n  padding: .5em;\n  overflow: auto;\n}\nheader.main-header {\n\tdisplay: flex;\n\tflex-direction: row;\n\tflex-wrap: nowrap;\n}\n\nheader h1 {\n\tfont-family: 'Bitter', serif;\n\t\n}\t\n\nheader img {\n  height: 10em;\n  float: left;\n  padding-right: .5em;\n\t\t\n}\n\nheader .subheading {\n\n}\n\nnav {\n\t/*padding-bottom: 2em;\n\tmargin-bottom: 2em;*/\n\tbackground-color: #2c478c;\n}\nnav button {\n  \tdisplay: flex;\n  \tjustify-content: center;\n  \tbackground-color: transparent;\n  \tborder: none;\n  \tfont-size: 1.6rem;\n  \tcolor: white;\n  \ttext-align: center;\n  \n }\nnav ul {\n\tdisplay: flex;\n\tjustify-content: flex-end;\n\tflex-wrap: wrap;\n\tlist-style-type: none;\n\tpadding: 0;\n\tmargin: 0;\n\tbackground-color: #2c478c;\n}\nnav ul li {\n\t\n\tpadding: .6em 1em;\n\ttext-align: left;\n}\n\nnav ul li a {\t\n\ttext-decoration: none;\n\tcolor: white;\n\tpadding: .6em 1em;\n}\nnav ul li.active a {\n\tpadding: .5em .9em;\n\tbackground-color: rgba(0,0,0,0.5);\n}\nnav ul li a:hover {\n\tbackground-color:#89C8CB;\n\tpadding: .5em .9em;\n}\n\nnav ul.hide{\n  display: none;\n\n}\n\nmain {\n  \n}\n\nmain h2 {}\n\nmain figure {}\n\nmain figure img { \n  width: 25%; \n  float: left;\n  padding-right: .5em;\n  padding-bottom: .5em;\n}\n\nsection.weatherstats{\n    display:flex;\n    flex-wrap:wrap;\n    flex-direction:row;\n    justify-content:flex-start;\n    align-items:stretch;\n}\n\ndiv.weatherstat{\n    flex-basis: 33.33%;\n    border: 1px solid;\n  \n}\n\n  \tsection.forecast {\n    display:none;\n \t\n \t}\n\n .grid{\n \tdisplay: block;\n\n }\n\n .grid img{\n \tmax-width: 100%;\n }\t\n\narticle p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */\n  width: ???; /* fill the page in the small/phone view */\n  margin: ???;\n}\n\n.formcontainer{\n  display:flex;\n  align-items: flex-start;\n  flex-direction: column;\n  padding: .75em;\n  max-width: 60%;\n  \n}\n\n .form-group {\n\n   padding: .75em;\n   margin: 10px auto;\n   background: #89C8CB;\n   border: 6px solid white;\n   border-radius: 0.3em;\n   box-shadow: 0 1px 8px black;\n  \n }\n\n .form-group label {\n   font-size: 1em;\n   padding-bottom: .5em;\n   padding-right:   3em;\n}\n\n  .form-group .input-control {\n   margin-bottom: 10px;\n   justify-content: space-between;  \n   border-radius:  0.3em;\n   width: 100%;\n }\n\n.form-group #submit{\n     color: white;\n     background: #2c478c;\n     width: 5em;\n     height: 3em;\n    border: 1px solid;\n    border-radius:  0.3em;\n    margin: 0;\n    padding: 0;\n    text-align:   center;\n}\n\n.thanks {\n\tdisplay: flex;\n\twidth: 45%;\n\tbackground:#89C8CB;\n\tcolor: white;\n\tpadding: .5em;\n\tmargin: 1.5em;\n\t  box-shadow: 0 1px 8px black;\n  }\n\nfooter {}\nfooter aside {}\nfooter>p {} /* This structure refers to p elements that are direct children of the footer element */\n\n/* Other Class Selectors */",
-			"file": "/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/styles/main-7.css",
-			"file_size": 3325,
-			"file_write_time": 131651292383909687,
+			"contents": "\nvar weatherObject = new XMLHttpRequest();\n\nweatherObject.open('GET','http://api.wunderground.com/api/ab517042123fbc95/conditions/q/MN/Franklin.json');\n\nweatherObject.send();\n\nweatherObject.onload = function(){\n\n\tvar weatherInfo = JSON.parse(weatherObject.responseText);\n\tconsole.log(weatherInfo);\n\tdocument.getElementById(\"currenttemp\").innerHTML= \"Current Temperature: \" + \n\t\tweatherInfo.current_observation.temp_f;\n\tdocument.getElementById(\"currentwind\").innerHTML = \"Current Windspeed: \" +\n\t\tweatherInfo.current_observation.\n}\n\n\n\n",
+			"file": "/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/scripts/wunderground_api.js",
+			"file_size": 477,
+			"file_write_time": 131652974932710131,
 			"settings":
 			{
-				"buffer_size": 3113,
+				"buffer_size": 534,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/styles/main-7.css",
+			"settings":
+			{
+				"buffer_size": 3302,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -249,15 +281,8 @@
 			"file": "/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/styles/medium-7.css",
 			"settings":
 			{
-				"buffer_size": 2842,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/styles/large-7.css",
-			"settings":
-			{
-				"buffer_size": 232,
+				"buffer_size": 3369,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -269,7 +294,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 268.0,
+		"height": 279.0,
 		"last_filter": "install",
 		"selected_items":
 		[
@@ -306,7 +331,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 720.0
+		"width": 768.0
 	},
 	"console":
 	{
@@ -328,20 +353,33 @@
 	[
 		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub",
 		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9",
-		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/images",
 		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/scripts",
 		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/styles",
+		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/scripts",
 		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/styles"
 	],
 	"file_history":
 	[
+		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/Gallery-7.html",
+		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/index.html",
+		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/stormcenter.html",
+		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/scripts/jscon.js",
+		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/json_activity/heroes.html",
+		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/styles/main-7.css",
+		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/styles/medium-7.css",
+		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/styles/large-7.css",
+		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/scripts/wunderground_api.js",
+		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/sandbox/style.css",
+		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/sandbox/index.html",
+		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/menu.html",
+		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/scripts/jscon.js",
+		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/index.html",
 		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson7/franklin-7.html",
 		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/styles/large-5.css",
 		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/styles/main-5.css",
 		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/styles/medium-5.css",
 		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/json_for_video.html",
 		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/heroes.html",
-		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/index.html",
 		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/style.css",
 		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson8/stormcenter.html",
 		"/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/json_sample.html",
@@ -502,29 +540,28 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/index.html",
+					"file": "/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/franklin.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4361,
+						"buffer_size": 6545,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4125,
-								4116
+								2264,
+								2264
 							]
 						],
 						"settings":
 						{
-							"auto_name": "<!DOCTYPE HTML>",
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -533,24 +570,24 @@
 								{
 									"1":
 									[
-										4339,
-										4343
+										2263,
+										2264
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										871,
-										875
+										2244,
+										2245
 									]
 								},
 								"unmatched":
@@ -559,51 +596,41 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -613,7 +640,17 @@
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
 							"bracket_highlighter.locations":
 							{
@@ -621,24 +658,24 @@
 								{
 									"1":
 									[
-										4117,
-										4124
+										2263,
+										2264
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										1475,
-										1482
+										2244,
+										2245
 									]
 								},
 								"unmatched":
@@ -647,51 +684,41 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -701,32 +728,44 @@
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1389.0,
+						"translation.y": 594.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/styles/main-7.css",
+					"file": "/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/scripts/wunderground_api.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3113,
+						"buffer_size": 534,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1394,
-								1394
+								534,
+								534
 							]
 						],
 						"settings":
@@ -750,51 +789,41 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -804,16 +833,129 @@
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/styles/main-7.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1871,
+								1871
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
 									"1":
 									[
-										1395,
-										1396
+										3089,
+										3090
 									]
 								},
 								"icon":
@@ -828,8 +970,96 @@
 								{
 									"1":
 									[
-										1390,
-										1391
+										2947,
+										2948
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1928,
+										1929
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1852,
+										1853
 									]
 								},
 								"unmatched":
@@ -838,31 +1068,6 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -873,231 +1078,78 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2145.0,
+						"translation.y": 1429.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/styles/medium-7.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2842,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/styles/large-7.css",
+					"file": "/C/Users/kpetersen.HELENA/Dropbox/School/CIT230/cit230hub/lesson9/styles/medium-7.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 232,
+						"buffer_size": 3369,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								932,
+								932
 							]
 						],
 						"settings":
@@ -1121,31 +1173,6 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1156,37 +1183,77 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
+									"1":
+									[
+										931,
+										932
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										856,
+										857
+									]
 								},
 								"unmatched":
 								{
@@ -1194,31 +1261,6 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1229,34 +1271,61 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 337.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1305,7 +1374,7 @@
 	"project": "lesson7.sublime-project",
 	"replace":
 	{
-		"height": 122.0
+		"height": 76.0
 	},
 	"save_all_on_build": true,
 	"select_file":

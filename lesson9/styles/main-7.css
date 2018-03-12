@@ -211,6 +211,9 @@ div #statcontainer{
   
 }
 
+#currentweather{
+  float:left;
+}
 
 footer {
   

@@ -1,0 +1,151 @@
+
+<!doctype html>
+<html lang="en-us">
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crystal Ball Weather</title>
+  <meta name="author" content="Kyle Petersen">
+  <meta name="description" content="Weather site for Franklin and the surrounding area">
+  <!-- external style references in the proper cascading order -->    
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Muli" rel="stylesheet">    <!-- Google API font reference -->
+  <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+  <link href="styles/main-7.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+  <<link href="styles/medium-7.css" rel="stylesheet"> <!--medium/tablet views -->
+  <link href="styles/large-7.css" rel="stylesheet">   <!--large/wide/desktop views --> 
+</head>
+<body>
+  
+  <header>
+        <img src="images/main_logo.jpeg" alt="The site logo">
+        <div class="main-header">
+        <h1>Crystal Ball Weather</h1>
+        <div class="subheading">We're not gypsies just meteorologist with awesome radars!</div>
+        </div>
+  </header>
+
+  <!-- site navigation use placeholder references -->
+  <nav>
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+    	<li><a href="#">Home</a></li>
+    	<li class="active"><a href="#">Franklin</a></li>
+    	<li><a href="#">Greenville</a></li>
+    	<li><a href="#">Springfield</a></li>
+    	<li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+    	<li><a href="../lesson7/Gallery-7.html">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+  <main class="clearfix">
+    <h2>The City of Franklin</h2>
+    <figure>
+      <img>
+    </figure>
+    <section>
+      <h3>Weather Summary</h3>    
+      <picture>
+            <img src="images/franklin-original.jpg" alt="sunny day" sizes="50vw"
+            srcset="images/franklin-small.jpg 400w,
+                    images/franklin-medium.jpg 800w,
+                    images/franklin-large.jpg 1100w">
+              </img>
+        </picture>
+      <div class="highlow">
+        <p>High: 87</p>  
+        <p>Low: 63</p>  
+      </div>
+      <div class="current">
+         
+      </div>   
+      <div class="conditions">
+        <p>Precipitation: 0.5"</p>  
+        <p id="windchill"></p>  
+      </div>           
+    </section>
+        
+    <section class="forecast">
+      <h3>10 Day Forecast</h3>
+      <!--<div class="forecast-grid">
+        <div class="forecast-day">Day 1</div>
+        <div class="forecast-day">Day 2</div>
+        <div class="forecast-day">Day 3</div>
+        <div class="forecast-day">Day 5</div>
+        <div class="forecast-day">Day 6</div>
+        <div class="forecast-day">Day 7</div>
+        <div class="forecast-day">Day 8</div>
+        <div class="forecast-day">Day 9</div>
+      </div>-->
+    <table id="forecast-data">
+	    <thead>
+          <tr>
+            <th class="forecast-day">Day 1</th>
+            <th class="forecast-day">Day 2</th>
+            <th class="forecast-day">Day 3</th>
+            <th class="forecast-day">Day 4</th>
+            <th class="forecast-day">Day 5</th>
+            <th class="forecast-day">Day 6</th>
+            <th class="forecast-day">Day 7</th>
+            <th class="forecast-day">Day 8</th>
+            <th class="forecast-day">Day 9</th>
+            <th class="forecast-day">Day 10</th>
+          </tr>
+		</thead>
+        <tbody>  
+          <tr>
+            <td class="temperature">89&deg;F</td>
+            <td class="temperature">87&deg;F</td>
+            <td class="temperature">78&deg;F</td>
+            <td class="temperature">75&deg;F</td>
+            <td class="temperature">72&deg;F</td>
+            <td class="temperature">72&deg;F</td>
+            <td class="temperature">79&deg;F</td>
+            <td class="temperature">83&deg;F</td>
+            <td class="temperature">85&deg;F</td>
+            <td class="temperature">89&deg;F</td>
+          </tr>
+          <tr>
+            <td class="temperature">20 mph</td>
+            <td class="temperature">5 mph</td>
+            <td class="temperature">5 mph</td>
+            <td class="temperature">15 mph</td>
+            <td class="temperature">5 mph</td>
+            <td class="temperature">5 mph</td>
+            <td class="temperature">25 mph</td>
+            <td class="temperature">5 mph</td>
+            <td class="temperature">17 mph</td>
+            <td class="temperature">5 mph</td>
+          </tr>
+		</tbody>
+      </table>
+    </section>
+      
+    <article>
+      <h3>Franklin Breaks Record</h3>	
+      <p class="town-article">
+        
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis vitae et leo duis. Suspendisse in est ante in nibh mauris cursus mattis molestie. Magna ac placerat vestibulum lectus mauris ultrices eros in cursus. Tincidunt arcu non sodales neque sodales ut etiam sit. Nam libero justo laoreet sit amet cursus sit amet dictum. Mi bibendum neque egestas congue quisque egestas diam in. Nunc sed blandit libero volutpat sed cras ornare. Sed risus ultricies tristique nulla aliquet enim. Adipiscing vitae proin sagittis nisl rhoncus mattis. Sed arcu non odio euismod lacinia at. Turpis tincidunt id aliquet risus feugiat in ante.
+        <br>
+        <br>
+
+      Arcu dictum varius duis at consectetur lorem donec massa sapien. Eget egestas purus viverra accumsan. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. In ornare quam viverra orci sagittis eu volutpat. Amet dictum sit amet justo donec. Massa sapien faucibus et molestie ac feugiat. Ut tortor pretium viverra suspendisse potenti nullam ac. Aenean sed adipiscing diam donec adipiscing tristique risus nec. Quam lacus suspendisse faucibus interdum. Duis at tellus at urna. Diam vulputate ut pharetra sit amet aliquam id diam. Cursus eget nunc scelerisque viverra mauris in aliquam sem. Id leo in vitae turpis massa sed. Netus et malesuada fames ac. Semper auctor neque vitae tempus quam. A iaculis at erat pellentesque adipiscing commodo elit at. Ut morbi tincidunt augue interdum velit euismod.
+      
+      </p>
+		</article>		  
+  
+  </main>
+    
+  <footer>
+    <aside>
+      Contact information placeholder
+    </aside>
+    <p class="footer-bar">&copy;2017 All Rights Reserved | Site Title | <span id="currentdate"></span></p>
+  </footer>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  <script src="scripts/windchill.js"></script>
+
+</body>
+</html>
