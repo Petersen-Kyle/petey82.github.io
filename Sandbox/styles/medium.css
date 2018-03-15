@@ -1,0 +1,51 @@
+@media only screen and (min-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+  
+ .aligncenter {
+        
+     max-width: 90%;
+ }
+
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+	
+} 
+
+nav button { 
+  	display:none; 
+
+  }  /* hamburger button does not need to be shown */
+
+nav ul.hide {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+nav ul li {
+	flex: 1 1 auto;
+    text-align: center;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: .6em 1em;
+	font-size: 1.5em;
+	
+}
+
+.main_img{ 
+	max-width: 75%;
+	height: auto;
+	align-content: flex-end;
+}
+  section.forecast { display: inherit; }  /* show the 10-day forecast with the medium view and up */
+  
+  article p.town-article img {  }  /* responsive images */
+
+}
