@@ -9,3 +9,11 @@
 	max-width: 25%;
 	height: auto;
 }
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: .6em 1em;
+	font-size: 1.5em;
+	
+}
