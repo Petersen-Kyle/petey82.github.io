@@ -17,4 +17,13 @@ function populateTowns(jsonObj) {
  var franklin_motto = towns[0].motto;
 
  document.getElementById("town_motto").innerHTML = franklin_motto;
-}
+ var myList = document.createElement('ul');
+ var townEvents = towns[0].events;
+          for (var j = 0; j < townEvents.length; j++){
+            var listItem = document.createElement('li');
+            listItem.textContent = townEvents[j];
+            myList.appendChild(listItem);
+
+			}
+  document.getElementById("franklinEvents").appendChild(myList);
+ }

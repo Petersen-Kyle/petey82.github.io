@@ -44,8 +44,19 @@ nav ul li a {
 	height: auto;
 	align-content: flex-end;
 }
-  section.forecast { display: inherit; }  /* show the 10-day forecast with the medium view and up */
-  
+
+#summary{
+	display: flex;
+	flex-direction: column;
+	padding-left: 10em;
+	flex: 1 0 auto;
+
+	
+}
+ section.forecast {
+ 	box-shadow: 5px 40px 40px 5px #b6b6b6;
+ 	padding: 1em;
+ }
   article p.town-article img {  }  /* responsive images */
 
 }

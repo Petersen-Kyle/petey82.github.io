@@ -13,6 +13,9 @@ function populateTowns(jsonObj) {
   var towns = jsonObj['towns'];
       
   for (var i = 0; i < towns.length; i++) {
+    if (towns[i].name!='Placerton') {
+      
+     
     var myArticle = document.createElement('article');
     var myH2 = document.createElement('h2');
     var myPara1 = document.createElement('p');
@@ -34,6 +37,10 @@ function populateTowns(jsonObj) {
     var elementId = "weatherstat"+ (i+1);
     
     document.getElementById(elementId).appendChild(myArticle);
+  }
+  else {
+      
+    }
   
   }
  }
