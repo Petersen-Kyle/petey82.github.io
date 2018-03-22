@@ -1,11 +1,5 @@
-(function() {
-    var nav = document.getElementById('nav'),
-        anchor = nav.getElementsByTagName('a'),
-        current = window.location.pathname;
-       
-        for (var i = 0; i < anchor.length; i++) {
-        	if(anchor[i].href == current) {
-            anchor[i].className = "active";
-        }
-    }
-})();
+$(function(){
+    var sPath = window.location.pathname;
+    var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
+    $('a[href="'+ sPage +'"]').parent().addClass('active');
+});
