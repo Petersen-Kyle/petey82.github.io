@@ -17,11 +17,11 @@ function populateTowns(jsonObj) {
 
  var towns = jsonObj['towns'];
 
- var franklin_motto = towns[0].motto;
+ var franklin_motto = towns[3].motto;
 
  document.getElementById("town_motto").innerHTML = franklin_motto;
  var myList = document.createElement('ul');
- var townEvents = towns[0].events;
+ var townEvents = towns[3].events;
           for (var j = 0; j < townEvents.length; j++){
             var listItem = document.createElement('li');
             listItem.textContent = townEvents[j];

@@ -1,0 +1,92 @@
+
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crystal Ball Weather</title>
+  <meta name="author" content="Kyle Petersen">
+  <meta name="description" content="Weather page for Franklin, MN, Springfield, TX, springfield, OR">
+  <!-- external style references in the proper cascading order -->    
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Muli" rel="stylesheet">  <!-- Google API font reference -->
+  <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+  <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+  <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+  <!--<link href="styles/large.css" rel="stylesheet"> -->  <!-- large/wide/desktop views --> 
+</head>
+<body>
+
+  <header>
+    <div class="aligncenter">
+    <img src="images/main_logo_180.jpg" alt="The site logo"><br>
+    <h1>Crystal Ball Weather</h1><br>
+    <span class="subheading">Our next-generation radars are the crystal ball!</span>
+    </div>
+  </header>
+
+  <!-- site navigation use placeholder references -->
+  <div class="aligncenter">
+    <nav id="nav">    
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="franklin.html">Franklin</a></li>
+    	<li><a href="greenville.html">Greenville</a></li>
+    	<li><a href="springfield.html">Springfield</a></li>
+    	<li><a href="stormcenter.html">Storm Center</a></li>
+    	<li><a href="gallery.html">Gallery</a></li>
+    </ul>
+    
+    </nav>
+  </div>  
+  <div class="aligncenter">
+   <main class="clearfix">
+  
+  <div class="aligncenter">
+   <div class="grid">
+      <div class="cell">
+        <img src="images/gallery1.jpeg" alt="image1" class="responsive-image">
+      </div>
+      <div class="cell">
+        <img src="images/gallery2.jpeg" alt="image2" class="responsive-image">
+      </div>
+      <div class="cell">
+        <img src="images/gallery3.jpeg" alt="image3" class="responsive-image">
+      </div>
+      <div class="cell">
+        <img src="images/gallery4.jpeg" alt="image4" class="responsive-image">
+      </div>
+      <div class="cell">
+        <img src="images/gallery5.jpeg" alt="image5" class="responsive-image">
+      </div>
+      <div class="cell">
+        <img src="images/gallery6.jpeg" alt="image6" class="responsive-image">
+      </div>
+    </div>
+    </div>
+
+   
+  
+  </main>
+ 
+  </div>
+    
+  <div class="aligncenter">
+  <footer>
+    
+    <aside>
+      123 Main St. &bull; Franklin, MU 83454  &bull;  USA  &bull;  (999)999-9999
+    
+    </aside>
+    <p class="footer-bar">&copy;2017 All Rights Reserved | Crystall Ball Weather | <span id="currentdate">Current Date Placeholder</span></p>
+    
+  </footer>
+  </div>  
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  <script src="scripts/ratings.js"></script>
+  <script src="scripts/jquery.js"></script>
+  <script src="scripts/active.js"></script>
+
+</body>
+</html>

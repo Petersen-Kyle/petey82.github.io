@@ -39,10 +39,17 @@ nav ul li a {
 	
 }
 
+.art_img{ 
+	max-width: 45%;
+	padding-left: 2em;
+	float:right;
+}
+
 .main_img{ 
 	max-width: 45%;
 	height: auto;
 	align-content: flex-end;
+
 }
 
 #summary{
@@ -60,3 +67,37 @@ nav ul li a {
   article p.town-article img {  }  /* responsive images */
 
 }
+
+.weatherstat{
+
+    border: 1px solid;
+    flex: 1 0 auto;
+    margin:.5em;
+    box-shadow: 0 1px 8px black;
+    padding: 1em;
+    text-align: center;
+
+  
+}
+
+.grid{
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      justify-content: space-between;
+  }
+
+  .grid div {
+      flex: 1 0 30%;
+      margin: 5px;
+  }
+
+  .cell img {
+      height: 100%;
+      width: 100%;
+    }
+
+  .cell img:hover{
+    box-shadow: 0 1px 8px black;
+  }
+  
