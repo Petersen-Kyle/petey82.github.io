@@ -55,7 +55,7 @@
 			"file": "styles/main.css",
 			"settings":
 			{
-				"buffer_size": 3659,
+				"buffer_size": 3735,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -99,7 +99,7 @@
 			"file": "gallery.html",
 			"settings":
 			{
-				"buffer_size": 4736,
+				"buffer_size": 3144,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -117,7 +117,7 @@
 			"file": "styles/medium.css",
 			"settings":
 			{
-				"buffer_size": 1131,
+				"buffer_size": 1437,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -269,7 +269,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -278,15 +278,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3659,
+						"buffer_size": 3735,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3383,
-								3383
+								3412,
+								3412
 							]
 						],
 						"settings":
@@ -299,8 +299,8 @@
 								{
 									"1":
 									[
-										2276,
-										2277
+										3382,
+										3383
 									]
 								},
 								"icon":
@@ -315,8 +315,8 @@
 								{
 									"1":
 									[
-										2240,
-										2241
+										3249,
+										3250
 									]
 								},
 								"unmatched":
@@ -387,8 +387,8 @@
 								{
 									"1":
 									[
-										3382,
-										3383
+										3415,
+										3416
 									]
 								},
 								"icon":
@@ -403,8 +403,8 @@
 								{
 									"1":
 									[
-										3249,
-										3250
+										3393,
+										3394
 									]
 								},
 								"unmatched":
@@ -476,7 +476,7 @@
 						"translation.y": 4764.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -684,7 +684,7 @@
 						"translation.y": 351.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -1076,7 +1076,7 @@
 						"settings":
 						{
 							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": 129,
+							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
 							{
 								"close":
@@ -1169,12 +1169,27 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										397,
+										398
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/square_bracket.png",
+										"region.bluish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										395,
+										396
+									]
 								},
 								"unmatched":
 								{
@@ -1244,7 +1259,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -1253,15 +1268,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4736,
+						"buffer_size": 3144,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4631,
-								4631
+								2562,
+								2562
 							]
 						],
 						"settings":
@@ -1274,8 +1289,8 @@
 								{
 									"1":
 									[
-										4691,
-										4697
+										2552,
+										2556
 									]
 								},
 								"icon":
@@ -1290,8 +1305,8 @@
 								{
 									"1":
 									[
-										4647,
-										4653
+										1740,
+										1744
 									]
 								},
 								"unmatched":
@@ -1362,8 +1377,8 @@
 								{
 									"1":
 									[
-										4624,
-										4630
+										2564,
+										2567
 									]
 								},
 								"icon":
@@ -1378,8 +1393,8 @@
 								{
 									"1":
 									[
-										4590,
-										4596
+										1711,
+										1714
 									]
 								},
 								"unmatched":
@@ -1449,10 +1464,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 837.0,
+						"translation.y": 729.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1475,15 +1490,15 @@
 						"settings":
 						{
 							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone": 200,
 							"bracket_highlighter.clone_locations":
 							{
 								"close":
 								{
 									"1":
 									[
-										151,
-										152
+										152,
+										153
 									]
 								},
 								"icon":
@@ -1568,27 +1583,12 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										152,
-										153
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/single_quote.png",
-										"region.greenish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										69,
-										70
-									]
 								},
 								"unmatched":
 								{
@@ -1659,7 +1659,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1668,29 +1668,29 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1131,
+						"buffer_size": 1437,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								656,
-								656
+								1437,
+								1437
 							]
 						],
 						"settings":
 						{
 							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": 131,
+							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
 							{
 								"close":
 								{
 									"1":
 									[
-										677,
-										678
+										1130,
+										1131
 									]
 								},
 								"icon":
@@ -1705,8 +1705,8 @@
 								{
 									"1":
 									[
-										623,
-										624
+										988,
+										989
 									]
 								},
 								"unmatched":
@@ -1850,7 +1850,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
