@@ -149,6 +149,7 @@ h2 + h3 {
 .article_img{
 	float: left;
 	padding-right: .25em;
+	width: 50%;
 }
 
 main h2 {
