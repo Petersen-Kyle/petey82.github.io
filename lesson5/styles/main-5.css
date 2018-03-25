@@ -25,7 +25,8 @@ header h1 {
 
 header img {
   display:inline-block;
-  float: left 
+  float: left;
+  max-width: 36em;
 }
 
 header .subheading {
@@ -80,7 +81,7 @@ nav ul li a:hover {
     nav ul li { width: 50%; float: left; }
     nav ul li:nth-of-type(odd) a { border-right: 1px solid #ccc; }
     nav ul li a { padding: 8px 0px; border-bottom: 1px solid #ccc; display: block; }*/
-}
+
 
 
 main {}
@@ -103,8 +104,8 @@ section.forecast {
 }
 
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-  width: ???; /* fill the page in the small/phone view */
-  margin: ???;
+  width: 200px; /* fill the page in the small/phone view */
+  margin: 1em;
 }
 
 footer {}
