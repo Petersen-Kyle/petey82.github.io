@@ -4,15 +4,67 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Alcove Digital Systems</title>
-	<link rel="stylesheet" href="styles/style.styles">
-	<script src="scripts/jquery-2.2.1.min.js"></script>
+	<link rel="stylesheet" href="styles/style.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- <script src="js/jquery-2.2.1.min.js"></script> -->
+	
+	<!-- <script>
+		window.onload = function(){
+			var element = document.getElementById('alcoveLogo');
+			element.style.opacity = 0.2;
+		
+			var elements = document.getElementsByClassName('servicesBtn');
+				for (var i = 0; i <elements.length; i++){
+					if (i % 2 == 0){
+						elements[i].style.color = 'rgb(0, 106, 255)';
+					}
+				}
+			var elements2 = document.getElementsByTagName('h2');
+				for (var i = 0; i < elements2.length; i ++) {
+					elements2[i].style.borderColor = 'rgb(255,0,0)';
+					elements2[i].style.borderWidth = '2px';
+					elements2[i].style.borderStyle = 'solid';
+					elements2[i].style.backgroundColor = 'rgba(255, 0, 0, 0.2)';
+				}
+
+			//var cssElement = document.querySelector(".navigation > li:nth-child(3) > a")
+				//cssElement.style.color = 'red';
+
+			var cssElements = document.querySelectorAll(".navigation > li:nth-child(even) > a");
+				for (var i = 0; i < cssElements.length; i++) {
+					cssElements[i].style.color = 'red';
+				}
+		}
+			
+	</script> -->
+
 	<script>
-		$(function () {
-			// All jQuery code goes here
+		$(document).ready(function () {
+			/**
+			 ALL CODE FROM LESSON 3 VIDEOS ARE LOCATED HERE AND IN AdvancedFiltersBegin.htm
+			 */
 
-			$('#alcoveLogo').styles('opacity', 0.4);
+			//jQuery code goes here
+			//alert('Hellow jQuery!!')
+			//$('button').css('border', '1px solid red');
 
-			$('.servicesBtn').styles('color', '#FFF');
+			//$('#alcoveLogo').css('opacity', 0.4);
+
+			//$('.servicesBtn').css('color', 'white');
+
+			//$('button').css('border', '1px solid red');
+			//$('h2').css('border', '1px solid red');
+
+			//$('input[name = "nameVal"]').css('border', '1px solid red');
+
+			//$('input[name!="phoneNum"]').css('border', '1px solid red');
+
+			//$('input[name*="Num"]').css('border', '1px solid red');
+			
+			//$('input[name$="Val"]').css('border', '1px solid red');
+
+			
+
 		})
 	</script>
 </head>

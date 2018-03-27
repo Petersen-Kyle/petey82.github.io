@@ -4,16 +4,28 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Alcove Digital Systems</title>
-	<link rel="stylesheet" href="styles/style.styles">
-	<script src="scripts/jquery-2.2.1.min.js"></script>
-	<script>
-		$(function () {
-			// All jQuery code goes here
+	<link rel="stylesheet" href="styles/style.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- <script src="js/jquery-2.2.1.min.js"></script> -->
+	<!-- <script>
+		$(document).ready(function () {
+			//jQuery code goes here
+			//alert('Hellow jQuery!!')
+			$('#alcoveLogo').css('opacity', 0.4);
 
-			$('#alcoveLogo').styles('opacity', 0.4);
+			$('.servicesBtn').css('color', 'white');
 
-			$('.servicesBtn').styles('color', '#FFF');
+			$('button').css('border', '1px solid red');
+			$('h2').css('border', '1px solid red');
+
+			$('input[name = "nameVal"]').css('border', '1px solid red');
+
+
 		})
+	</script> -->
+
+	<script>
+		
 	</script>
 </head>
 
@@ -47,7 +59,7 @@
 							<label>Full Name</label>
 						</div>
 						<div class="FieldHolder">
-							<input type="text" name="nameVal">
+							<input type="text">
 						</div>
 					</div>
 
@@ -56,7 +68,7 @@
 							<label>E-Mail</label>
 						</div>
 						<div class="FieldHolder">
-							<input type="text" name="emailVal">
+							<input type="text">
 						</div>
 					</div>
 
@@ -65,14 +77,14 @@
 							<label>Phone</label>
 						</div>
 						<div class="FieldHolder">
-							<input type="text" name="phoneNum">
+							<input type="text">
 						</div>
 					</div>
 
 					<div class="FormFieldHolder">
 						<div class="labelHolder"></div>
 						<div class="FieldHolder">
-							<button id="ReqAQuoteBtn" data-code="028">Request A Quote !</button>
+							<button id="ReqAQuoteBtn">Request A Quote !</button>
 						</div>
 					</div>
 				</form>
@@ -130,7 +142,16 @@
 		</div>
 
 		<div class="footer">
+
 			<h5>© Alcove Digital Systems | <a href="#">Terms of Use</a></h5>
+			<br>
+			<br>
+			<ul>
+			    <li><a href="/Lesson3/">Lesson 3</a></li>
+			    <li><a href="/Lesson4/">Lesson 4</a></li>
+			    <li><a href="/Lesson5/">Lesson 5</a></li>
+			    
+			</ul>
 		</div>
 	</div>
 </body>
