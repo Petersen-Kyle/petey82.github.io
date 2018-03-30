@@ -1,7 +1,7 @@
 
 var weatherObject = new XMLHttpRequest();
 
-weatherObject.open('GET','//api.wunderground.com/api/ab517042123fbc95/conditions/q/MN/Franklin.json');
+weatherObject.open('GET','https//api.wunderground.com/api/ab517042123fbc95/conditions/q/MN/Franklin.json');
 
 weatherObject.send();
 
@@ -15,7 +15,7 @@ weatherObject.onload = function(){
 		weatherInfo.current_observation.wind_string;
 	document.getElementById("currentdescription").innerHTML = "Current Conditions: " + 
 		weatherInfo.current_observation.weather;
-	document.getElementById("currentweather").innerHTML = "<img src ='" + weatherInfo.current_observation.icon_url +
+	document.getElementById("currentweather").innerHTML = "<img src ='//'" + weatherInfo.current_observation.icon_url +
 	 "' alt='"+ weatherInfo.current_observation.icon + "''>";
 }
 
