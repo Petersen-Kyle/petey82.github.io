@@ -1,0 +1,470 @@
+
+
+/*body{
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header img {
+  max-width: 100%;
+  height: auto;
+}
+
+#exampleSlider {
+ 
+  overflow: hidden; 
+  list-style: none; 
+  padding: 0; 
+  margin: 0;
+}
+
+.navmenu ul hide{
+  display: none;
+}
+
+.mainquote {
+  display:none;
+}
+
+.news {
+  display: none;
+}*/
+
+
+@media only screen  and (min-width : 481px) {
+
+
+.navmenu button { 
+    display:none; 
+
+  }  /* hamburger button does not need to be shown */
+
+.navmenu{
+  
+  background-color: #ee6c4d;
+  overflow: hidden;
+
+}
+
+.navmenu ul.hide {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+
+
+}
+
+.navmenu ul{
+  display: flex;
+  flex-wrap: wrap;
+   justify-content: space-between;
+  list-style-type: none;
+  flex-wrap: wrap;
+  background-color: #ee6c4d; 
+}
+
+.navmenu ul li{
+  list-style-type: none;
+  padding: 0;
+}
+
+.navmenu ul li a{
+  flex: 0 1 auto;
+  padding: 14px 50px;
+  text-decoration: none;
+  text-align: center;
+  color: #293241;
+  font-size: 1.25em
+}
+
+.navmenu ul a:hover{
+    background-color: #3d5a80;
+    color: #e0fbfc;
+    font-size: 1.25em
+}
+
+
+
+.navmenu ul li a.active {  
+  background-color: #3d5a80;
+  color: #e0fbfc;
+}
+.mainquote{
+  display: inline;
+  flex-shrink: 0;
+  padding: 0 25% 30px 25%;
+  }
+
+.maindesc p{
+  font-size: 1.25em;
+  text-align: justify;
+}
+
+.news{
+  display: block;
+}
+
+.news{
+  
+  flex: 0 1 35%;
+  box-shadow:5px 40px 40px 5px #3d5a80;
+  padding-left: 5px;
+
+ 
+}
+
+
+.news h2{
+  text-align:center;
+}
+}
+
+/*
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+ 
+
+
+/**.header{
+   grid-area: header;
+   background-color: #ee6c4d;
+ }
+ */
+
+ .header{
+ 	
+ }
+
+.header img {
+  max-width: 100%;
+  height: auto;
+}
+
+#exampleSlider {
+ 
+  overflow: hidden; 
+  list-style: none; 
+  padding: 0; 
+  margin: 0;
+}
+
+/*
+.navmenu ul{
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+  list-style-type: none;
+  flex-wrap: wrap;  
+}
+
+.navmenu ul a{
+  text-decoration: none;
+  padding: 12px 75px;
+  color: #293241;
+}
+
+.navmenu ul a:hover{
+    background-color: #3d5a80;
+    color: #e0fbfc;
+    padding: 14px 75px;
+}
+
+nav ul li a.active {
+  padding: 14px 75px;
+  background-color: #3d5a80;
+  color: #e0fbfc;
+}
+.maincontent{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 1280px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+.mainquote{
+  display: inline;
+  flex-shrink: 0;
+  padding: 0 25% 30px 25%;
+  }
+.maincontent2{
+  flex-direction: row;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.maindesc{
+  flex: 0 1 60%;
+  padding-right: 1.75em;
+  
+
+}
+
+.maindesc p{
+  font-size: 1.25em;
+  text-align: justify;
+}
+
+.coupon {
+    max-width:400px;
+    border: 2px dashed #3d5a80; 
+    border-radius: 15px; 
+    
+    
+}
+
+.coupon h3{
+  text-align: center;
+}
+
+.couponmain p{
+  font-size: 1em;
+}
+.couponfooter{
+  background-color: #e0fbfc;
+  padding: 3px;
+}
+
+.couponmain img{
+  max-width:100%;
+}
+
+.couponfooter p{
+  font-size: 1em;
+}
+
+.couponcode {
+  font-weight: bold;
+  color: #ee6c4d;
+}
+
+.expires{
+  color: #ee6c4d;
+  font-style: italic;
+}
+.news{
+  display: block;
+}
+
+.news{
+  
+  flex: 0 1 35%;
+  box-shadow:5px 40px 40px 5px #3d5a80;
+  padding-left: 5px;
+
+ 
+}
+
+
+.news h2{
+  text-align:center;
+}
+
+.quote{
+  font-size: 30px;
+  margin: 0 auto;
+  quotes: "\201C""\201D""\2018""\2019";
+  padding: 10px 20px;
+  line-height: 1.4;
+}
+
+.quote:before {
+  content: open-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 30px;
+  color: #ccc;
+  font-size: 3em;
+}
+
+.quote::after {
+  content: close-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: 10px;
+  position: relative;
+  top: 35px;
+  color: #ccc;
+  font-size: 3em;
+}
+
+.quoteref{
+  margin:0;
+  text-align: right;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #ee6c4d;
+  height: 85px;
+}
+footer aside{
+color: #3d5a80;
+  text-align: center;
+  padding-top: 1.5em;
+  font-size: 1rem;
+}
+
+h1{
+  text-align: center;
+}
+
+
+.tourcontent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1280px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0 1em;
+
+}
+.tour{
+  flex: 0 1 40%;
+  margin-top: 20px;
+  border: 1px solid;
+  border-radius: 1em;
+  padding-left: 5px;
+  box-shadow:5px 40px 40px 5px #3d5a80;
+
+}
+
+.tour h3, h2, .subtitle{
+  text-align: center;
+  margin: 0;
+}
+
+.subtitle{
+  font-style: italic;
+}
+
+.tour img{
+  max-width:95%;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.tourprice{
+  font-size: 1.75em;
+  color: #e0fbfc;
+  text-align: center;
+}
+
+.tourpricebkgr{
+  background-color: #3d5a80;
+  padding:15px;
+}
+
+.available{
+  text-align: center;
+  font-style: italic;
+}
+
+main .column{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 1280px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0 1em;
+
+}
+
+.greatdivide{
+  border: 1px solid;
+  border-radius: .5em;
+  background-color: #e0fbfc;
+  text-align: center
+}
+
+.greatdivide img{
+  display:block;
+  border-radius: 1em;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cost {
+  font-size: 1.5em;
+  font-weight:bold;
+}
+.registration{
+  margin-top: 50px;
+  border: 1px solid;
+  border-radius: .5em;
+  background-color: #e0fbfc;
+  text-align: center
+}
+.formcontainer{
+  display:flex;
+  flex-direction: column;
+  padding: .75em;
+  max-width: 60%;
+  margin: 0 auto;
+
+  
+}
+
+ .form-group {
+
+   padding: .75em;
+   margin: 10px auto;
+   background: #3d5a80;
+   border: 6px solid white;
+   border-radius: 0.3em;
+   box-shadow: 0 1px 8px black;
+  
+ }
+
+ .form-group label {
+   font-size: 1em;
+   padding-bottom: .5em;
+   padding-right:   3em;
+   color: #e0fbfc;
+}
+
+  .form-group .input-control {
+   margin-bottom: 10px;
+   justify-content: space-between;  
+   border-radius:  0.3em;
+   width: 100%;
+ }
+
+.form-group #submit{
+     color: white;
+     background: #ee6c4d;
+     width: 5em;
+     height: 3em;
+    border: 1px solid;
+    border-radius:  0.3em;
+    margin: 0;
+    padding: 0;
+    text-align:   center;
+}
+}
+*/

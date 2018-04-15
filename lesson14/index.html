@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+<link rel="stylesheet" type="text/css" href="styles/main.css">
+<link rel="stylesheet" type="text/css" href="styles/medlarge.css">
+
+<title>Mountain Spoke - Home</title>
+
+</head>
+ <body>
+ <div class="wrapper"> 	
+ 	<header class="header">
+  		<ul id="exampleSlider">
+    		<li><img src="images/mainbike1_1280.jpeg" alt="" /></li>
+    		<li><img src="images/mainbike2_1280.jpeg" alt="" /></li>
+    		<li><img src="images/mainbike3_1280.jpeg" alt="" /></li>
+    	</ul>
+  	</header>
+	<nav class="navmenu">
+		<button onclick="toggleMenu()">&#9776;</button>
+	    <ul id="primaryNav" class="hide">
+	        <li><a href="index.html">Home</a></li>
+	        <li><a href="tours.html">Tours</a></li>
+	     	<li><a href="events.html">Events</a></li>
+	     	<li><a href="sales.html">Sales</a></li>
+	     	<li><a href="service.html">Service</a></li>
+	     	<li><a href="contact.html">Contact Us</a></li>
+	    </ul>
+	</nav>
+
+	<main class="maincontent">
+		
+		<div class="mainquote">
+		<blockquote><p class="quote">A bad day on a mountain bike always beats a good day in the office."</p></blockquote>
+		<p class="quoteref">-Mike Brcic</p>
+		</div>
+		
+		<div class="maincontent2">
+		
+		<div class = "maindesc">
+			<p>Welcome to Mountain Spoke! We are Bozeman's premier bike tour guides. We have been providing wholesome recreational biking service to the Bozeman area since 1978. Our goal is to provide excellent customer service, and we want to help you find the most enjoyment possible through mountain biking the beautiful Bozeman landscape.
+			</p>
+			<div>
+			<H3>We offer the following amazing services</H3>
+			<ul>
+				<li>Guided Mountain Bike Tours</li>
+				<li>New &amp; Used Bicycles</li>
+				<li>Clothing &amp; Accessories</li>
+				<li>Repair Services</li>
+			</ul>
+			</div>
+
+			<div class = "coupon">
+				<h3>SPECIAL DEAL</h3>
+				<div class="couponmain">
+					<img src="images/coupon_600.jpg" alt="coupon image">
+					<h3>20% OFF GUIDED RIDE</h3>
+					<p>Use the promo code below to save on your next guided ride.</p>
+				</div>
+				<div class="couponfooter">
+					<p>Use Promo Code: <span class="couponcode">BOZE2018</span></p>
+					<p class="expires">Expires August 31, 2018</p>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="news" id="twitter">
+			<h2>Bozeman Weather</h2>
+			<section class="forecast">
+            <span id="currentweather"></span><br>
+            <span id="currenttemp"></span><br>
+            <span id="currentdescription"></span><br>
+            <span id="currentwind"></span><br>        
+          </section>
+		<h2>Mountain Biking <br>Social Media</h2>
+		    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/mountainbiking" data-widget-id="985306871400673281">#mountainbiking Tweets</a>
+            
+          
+        </div>
+		</div>
+	</main>
+	<footer>
+		<aside>
+			 3950 Valley Commons Drive &bull; Bozeman, MT &bull;  USA  &bull;  (999)999-9999
+			 <p class="footer-bar">&copy;2017 All Rights Reserved | Moountain Spoke </p>
+		</aside>
+		
+	</footer>
+ 	
+</div>
+<!-- INCLUDED JAVASCRIPT -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="scripts/slides.js"></script>
+<script src="//platform.twitter.com/widgets.js"></script>
+<script src="scripts/active.js"></script>
+<script src="scripts/wunderground_api.js"></script>
+<script src="scripts/hamburger.js"></script>
+ </body>
+ </html>

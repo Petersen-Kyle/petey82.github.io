@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+<link rel="stylesheet" type="text/css" href="styles/main.css">
+<link rel="stylesheet" type="text/css" href="styles/medlarge.css">
+
+
+<title>Mountain Spoke - Events</title>
+
+</head>
+ <body>
+ <div class="wrapper"> 	
+ 	<header class="header">
+  		<img src="images/mainbike1_1280.jpeg" alt="" />
+    	
+  	</header>
+	<nav class="navmenu">
+		<button onclick="toggleMenu()">&#9776;</button>
+	    <ul id="primaryNav" class="hide">
+	        <li><a href="index.html">Home</a></li>
+	        <li><a href="tours.html">Tours</a></li>
+	     	<li><a href="events.html">Events</a></li>
+	     	<li><a href="sales.html">Sales</a></li>
+	     	<li><a href="service.html">Service</a></li>
+	     	<li><a href="contact.html">Contact Us</a></li>
+	    </ul>
+	</nav>
+
+	<main class="maincontact">
+		<div><h1>Contact Mountain Spoke</h1>
+		<address>3950 Valley Commons Dr<br>Bozeman, MT 59718</address>
+		<p>Phone: 999.999.9999</p>
+		<div class="formcontainer">
+			<form  class="form-group" method="post" action="http://petey82.github.io/lesson14/thankyou.html">
+			<label for="fullname">Full Name</label><input type="text" name="fullname" class="input-control" required minlength="5" pattern="([A-Za-z])+\s([A-Za-z])+"> <br/>
+    		<label for="email">Email</label><input type="email" placeholder="yourname@domain.com" class="input-control" required><br/>
+    		<label for="phone">Telephone</label> <input type="tel" name="telephone" class="input-control" required><br/>
+    		<label for="zip">Zip</label> <input type="text" name="zip" class="input-control" required pattern="\d{5}" minlength="5"><br/>
+    		<label for="comments">Addional Info/Comments</label><textarea rows="4" cols="50" name="comments" class="input-control"></textarea>
+ 			 <input type="submit" value="Submit" id="submit"> 
+ 			</form>
+ 		</div>
+	</div>
+		<div>
+			<iframe src="https://www.google.com/maps/embed?pb" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+		</div>
+		
+		
+
+		
+	</main>
+	<footer>
+		<aside>
+			 3950 Valley Commons Drive &bull; Bozeman, MT &bull;  USA  &bull;  (999)999-9999
+			 <p class="footer-bar">&copy;2017 All Rights Reserved | Moountain Spoke </p>
+		</aside>
+		
+	</footer>
+ 	
+</div>
+<!-- INCLUDED JAVASCRIPT -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- <script src="scripts/slides.js"></script>-->
+<!--<script src="//platform.twitter.com/widgets.js"></script>-->
+<script src="scripts/active.js"></script>
+<!--<script src="scripts/wunderground_api.js"></script>-->
+<script src="scripts/hamburger.js"></script>
+ </body>
+ </html>
