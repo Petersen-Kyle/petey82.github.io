@@ -550,6 +550,10 @@ main .column{
   text-align: left;
 }
 
+.bikesales {
+  max-width: 200px;
+}
+
 .prodesc{
   text-align: justify;
 }

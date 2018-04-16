@@ -125,6 +125,11 @@
 .news h2{
   text-align:center;
 }
+
+.bikesales {
+  max-width: 400px;
+}
+
 }
 
 /*
