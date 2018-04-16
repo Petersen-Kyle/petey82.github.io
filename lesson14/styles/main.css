@@ -421,5 +421,111 @@ main .column{
 
 
 
+/*SERVICE PRICING*/ 
+    
+    
+  
 
+.pricingdiv{
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  font-size: 16px;
+  justify-content: center;
+  padding: 1.5em;
+}
 
+.pricingdiv ul.theplan{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  width: 260px; /* width of each table */
+  margin-right: 20px; /* spacing between tables */
+  margin-bottom: 1em;
+  border: 1px solid gray;
+  transition: all .5s;
+  box-shadow: 0 0 10px gray;
+}
+
+.pricingdiv ul.theplan .center{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pricingdiv ul.theplan img{
+  max-width: 80%;
+  height: auto;
+}
+
+.pricingdiv ul.theplan li{
+  padding: 10px 10px;
+  position: relative;
+  border-bottom: 1px solid #eee;
+}
+
+.pricingdiv ul.theplan li.title{
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+  padding: 30px 10px;
+  background: #7fe0de;
+  color: white;
+  box-shadow: 0 -10px 5px rgba(0,0,0,.1) inset;
+  text-transform: uppercase;
+}
+
+.pricingdiv ul.theplan:nth-of-type(2) li.title{
+  background: #7fe0de);
+  color: white;
+}
+    
+.pricingdiv ul.theplan:nth-of-type(3) li.title{
+  background: #7fe0de;
+  color: white;
+}
+
+.pricingdiv ul.theplan:last-of-type{ /* remove right margin in very last table */
+  margin-right: 0;
+}
+
+/*very last LI within each pricing UL */
+.pricingdiv ul.theplan li:last-of-type{
+  text-align: center;
+  margin-top: auto; /*align last LI (price botton li) to the very bottom of UL */
+}  
+
+.pricingdiv a.pricebutton{
+  background: #3d5a80 ;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px auto;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.pricingdiv a.pricebutton:hover{
+  transform: scale(1.25);
+  }
+
+@media only screen and (max-width: 600px) {
+  .pricingdiv ul.theplan{
+    border-radius: 0;
+    width: 100%;
+    margin-right: 0;
+  }
+  
+ .pricingdiv a.pricebutton{
+    display: block;
+  }
+}
+
+#servicefooter{
+  text-align: center;
+}

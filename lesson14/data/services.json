@@ -1,0 +1,38 @@
+{
+  "services": [{
+      "name": "Bronze",
+      "amount": "$30.00",
+      "work": [
+        "Tire pressure check and tread inspection",
+        "Chain inspection, degrease, and re-lube",
+        "Brake inspection and lube",
+        "Gear inspection and lube"
+
+      ]
+    },
+    {
+      "name": "Silver",
+      "amount": "$60.00",
+      "work": [
+        "Bronze package Plus:",
+        "Spoke inspection and repair",
+        "Inspect and lube suspension",
+        "Cable inspection and repair fraying",
+        "Clean drivetrain"
+
+      ]
+    },
+
+    {
+      "name": "Gold",
+      "amount": "$120.00",
+      "work": [
+        "Silver package Plus:",
+        "Pedal check - clipless and cleats",
+        "Replace brake pads and rubber brake hood",
+        "Check all bearing systems and repair if needed"
+
+      ]
+    }
+  ]
+}
