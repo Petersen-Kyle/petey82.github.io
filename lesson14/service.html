@@ -37,8 +37,19 @@
 	
 	</div>
 	<div id="servicefooter">
-		<p>*Specific repairs are available also. Please call for pricing.</p>
+		<p>*Specific repairs are available also. Please call for pricing or request information below.</p>
 	</div>
+	<div class="formcontainer">
+			<form  class="form-group" method="post" action="http://petey82.github.io/lesson14/thankyou.html">
+			<label for="fullname">Full Name</label><input type="text" name="fullname" class="input-control" required minlength="5" pattern="([A-Za-z])+\s([A-Za-z])+"> <br/>
+    		<label for="email">Email</label><input type="email" placeholder="yourname@domain.com" class="input-control" required><br/>
+    		<label for="phone">Telephone</label> <input type="tel" name="telephone" class="input-control" required><br/>
+    		<label for="zip">Zip</label> <input type="text" name="zip" class="input-control" required pattern="\d{5}" minlength="5"><br/>
+    		<label for="comments">Addional Info/Comments</label><textarea rows="4" cols="50" name="comments" class="input-control"></textarea>
+ 			 <input type="submit" value="Submit" id="submit"> 
+ 			</form>
+ 	</div>
+
 	
 
 	<footer>
